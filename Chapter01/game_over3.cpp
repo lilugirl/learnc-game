@@ -2,9 +2,9 @@
 // Demostrates using declearations
 # include <iostream>
 using std::cout;
-using std:::endl;
+using std::endl;
 int main()
 {
-    count<< "Game Over!" << endl;
+    cout<< "Game Over!" << endl;
     return 0;
 }
