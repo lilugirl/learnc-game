@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-  int score:
+  int score;
   double distance;
   char playAgain;
   bool shieldsUp;
@@ -21,12 +21,12 @@ int main()
   cout << "playAgain:" << playAgain << endl;
   // skipping shieldsUp since you don't generally print Boolean values
   cout << "lives: " << lives << endl;
-  cout << "aliensKilled:" << aliensKiiled << endl;
+  cout << "aliensKilled:" << aliensKilled << endl;
   cout << "engineTemp:" << engineTemp << endl;
   int fuel;
   cout << "\nHow much fuel?";
   cin >> fuel;
-  count >> "fuel:" << fuel << endl;
+  cout << "fuel:" << fuel << endl;
   typedef unsigned short int ushort;
   ushort bonus=10;
   cout << "\nbonus:" << bonus <<endl;
