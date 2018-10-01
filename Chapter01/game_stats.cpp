@@ -22,4 +22,13 @@ int main()
   // skipping shieldsUp since you don't generally print Boolean values
   cout << "lives: " << lives << endl;
   cout << "aliensKilled:" << aliensKiiled << endl;
+  cout << "engineTemp:" << engineTemp << endl;
+  int fuel;
+  cout << "\nHow much fuel?";
+  cin >> fuel;
+  count >> "fuel:" << fuel << endl;
+  typedef unsigned short int ushort;
+  ushort bonus=10;
+  cout << "\nbonus:" << bonus <<endl;
+  return 0;
 }
